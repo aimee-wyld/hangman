@@ -1,0 +1,40 @@
+header {
+    height: 150px;
+    background-color: #46b8da;
+    padding: 50px;
+    border-bottom: 7px solid #1b6d85;
+}
+
+main {
+    height: 700px;
+}
+
+#word-output {
+    height: 500px;
+    padding: 75px;
+}
+
+#game-output {
+    height: 270px;
+    padding-top: 75px;
+}
+
+#word-input {
+    height: 180px;
+}
+
+.letter-output,
+.letter-input {
+    width: 40px;
+    height: 40px;
+}
+
+.guess-box {
+    border: 5px ridge #1b6d85;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.btn-lg {
+    margin-top: 10px;
+}
