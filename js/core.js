@@ -1,5 +1,5 @@
 $(function() {
-    
+
     var deathToll = 0
     var winTally = 10
 
@@ -47,7 +47,7 @@ $(function() {
                 }
 
                 $('#modalClose').click(function() {
-                    window.location.replace('http://monkeypants/playing/hangman/')
+                    window.location.reload()
                 })
             })
         })
