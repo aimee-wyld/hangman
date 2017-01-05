@@ -19,10 +19,6 @@ main {
     overflow: auto;
 }
 
-#word-input {
-    height: 180px;
-}
-
 .letter-output,
 .letter-input {
     width: 40px;
