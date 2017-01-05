@@ -1,7 +1,6 @@
 $(function() {
 
     var deathToll = 0
-    var winTally = 10
 
     $.post('Word.php', {request: 'getWord'}, function (data) {
 
