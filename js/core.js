@@ -43,7 +43,7 @@ $(function() {
                     $('#endModal').modal()
                 }
 
-                $('#modalClose').click(function() {
+                $('#modal-close').click(function() {
                     window.location.reload()
                 })
             })
