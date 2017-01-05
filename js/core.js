@@ -36,9 +36,7 @@ $(function() {
                     $('.modal-header h4').html("You lose! The word was '" + answer + "'!")
                     $('#endModal').modal()
                 }
-
-                $('#modalClose').click(function()
-                {
+                $('#modalClose').click(function() {
                     window.location.replace('http://monkeypants/playing/hangman/')
                 })
             })
