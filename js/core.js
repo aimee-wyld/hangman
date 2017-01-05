@@ -38,9 +38,7 @@ $(function() {
                 if (winTally == 0) {
                     $('.modal-header h4').html("You win! The word was '" + answer + "'!")
                     $('#endModal').modal()
-                }
-
-                if (deathToll == 12) {
+                } else if (deathToll == 12) {
                     $('.modal-header h4').html("You lose! The word was '" + answer + "'!")
                     $('#endModal').modal()
                 }
