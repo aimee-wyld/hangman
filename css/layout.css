@@ -10,17 +10,13 @@ main {
 }
 
 #word-output {
-    height: 500px;
-    padding: 75px;
+    margin-top: 75px;
 }
 
 #game-output {
-    height: 270px;
-    padding-top: 75px;
-}
-
-#word-input {
-    height: 180px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    overflow: auto;
 }
 
 .letter-output,
