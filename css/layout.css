@@ -10,8 +10,7 @@ main {
 }
 
 #word-output {
-    height: 500px;
-    padding: 75px;
+    margin-top: 75px;
 }
 
 #game-output {
