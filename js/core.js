@@ -1,8 +1,5 @@
 $(function() {
-
-    $('.letter-output').remove()
-    $('.letter-input').val('')
-
+    
     var deathToll = 0
     var winTally = 10
 
@@ -17,7 +14,7 @@ $(function() {
             $('#word-output').prepend('<input type="text" disabled class="letter-output text">')
             i++
         }
-        
+
         $('#submit').click(function() {
 
             var letter = $('.letter-input').val()
