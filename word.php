@@ -1,7 +1,7 @@
 <?php
 require 'classes/Word.php';
 
-$my_word = new Word;
+$my_word = new Word();
 $response = [];
 
 switch($_POST['request']) {
