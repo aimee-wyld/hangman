@@ -11,14 +11,13 @@ $(function() {
         var word = jQuery.parseJSON(data)
         var answer = word.word
         var i = 0
-        
+        var winTally = word.len
+
         while (i < word.len) {
             $('#word-output').prepend('<input type="text" disabled class="letter-output text">')
             i++
         }
-
-        winTally = word.len
-
+        
         $('#submit').click(function() {
 
             var letter = $('.letter-input').val()
