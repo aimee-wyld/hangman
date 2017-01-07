@@ -5,7 +5,7 @@ class Word {
     private $word;
     private $wordLength;
 
-    public function __construct($library) {
+    public function __construct(Array $library) {
         $this->word = $library[array_rand($library)];
         $this->wordLength = strlen($this->word);
     }
